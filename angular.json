@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "dialog-service:build:production"
+              "buildTarget": "dialog-service:build:production"
             },
             "development": {
-              "browserTarget": "dialog-service:build:development"
+              "buildTarget": "dialog-service:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "dialog-service:build"
+            "buildTarget": "dialog-service:build"
           }
         },
         "test": {
